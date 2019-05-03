@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<families xmlns="http://www.example.org/family_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/family_schema family_schema.xsd">
+	<family adress="CIS, Belarus, Minsk, N186"> 
+			<mother>
+				<maiden_name>Ivanova</maiden_name>
+				<name>Kate</name>
+				<surname>Petrova</surname>
+				<age>31</age>
+				<gender>female</gender>	
+				<hobby>
+					<title>Dancing</title>
+					<time-per-week>2</time-per-week>
+					<schedule>
+						<day>mondey</day>
+						<time>18:00</time>
+						<day>friday</day>
+						<time>18:00</time>
+					</schedule>
+				</hobby>
+			</mother>
+ 			<father>
+				<name>Igor</name>
+				<surname>Petrov</surname>
+				<age>31</age>	
+				<gender>male</gender>
+			</father>
+ 			<children>
+				<child>
+					<name>Ivan</name>
+					<surname>Petrov</surname>
+					<age>5</age>	
+					<gender>male</gender>
+				</child>
+				<child>
+					<name>Olga</name>
+					<surname>Petrova</surname>
+					<age>6</age>	
+					<gender>female</gender>
+				</child>
+			</children>
+	</family>
+</families>
